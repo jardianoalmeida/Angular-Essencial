@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './componets/template/header/header.component';
 import { MatSidenavModule} from "@angular/material/sidenav";
+
 import { MatListModule } from "@angular/material/list";
 import { MatCardModule } from "@angular/material/card";
-
-
 import { MatToolbarModule } from "@angular/material/toolbar";
+import { MatButtonModule } from "@angular/material/button";
+
+
 import { FooterComponent } from './componets/template/footer/footer.component';
 import { NavComponent } from './componets/template/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
@@ -34,7 +36,8 @@ import { ProductCreateComponent } from './componets/product/product-create/produ
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
