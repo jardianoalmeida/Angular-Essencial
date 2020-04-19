@@ -12,6 +12,7 @@ import { MatCardModule } from "@angular/material/card";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatButtonModule } from "@angular/material/button";
 import { MatSnackBarModule } from "@angular/material/snack-bar";
+import { HttpClientModule } from "@angular/common/http";
 
 
 import { FooterComponent } from './componets/template/footer/footer.component';
@@ -39,7 +40,8 @@ import { ProductCreateComponent } from './componets/product/product-create/produ
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
